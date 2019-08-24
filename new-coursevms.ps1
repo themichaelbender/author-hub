@@ -1,6 +1,6 @@
-```powershell
+
 # do a for loop knucklebutt
-new-azvm `
+New-AzVM `
     -ResourceGroupName 'demo-rg' `
     -name 'demo-1' `
     -Location 'Central US' `
@@ -12,7 +12,7 @@ new-azvm `
 ```
 ```powershell
 
-new-azvm `
+New-AzVM `
     -ResourceGroupName 'demo-rg' `
     -name 'demo-2' `
     -Location 'Central US' `

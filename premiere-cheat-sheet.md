@@ -1,11 +1,13 @@
-# Camtasia -> Premiere Cheat Sheet
+# Premiere Cheat Sheet
+
+Essentials for getting up to speed quickly in Premiere.
 
 ### Tips and PluralSight Author Best Practices
 
 - Extend frame => Move playhead to frame to extend. In the menu, select clip->Video options->Insert Frame hold segment. This splits the frame and extends 20seconds.
 - Use **Cross Dissolve** transition for smooth callouts and demo transitions. This can be changed under Effects->Video Transitions->Dissolve. Cross Dissolve is default.
   
-### Basic PS Author Keyboard shortcuts
+### Basic PS Author Keyboard shortcuts (assuming default keyboard layout)
 
 | Function                       |               Key-Combo               |
 | ------------------------------ | :-----------------------------------: |
