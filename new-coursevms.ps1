@@ -1,5 +1,6 @@
+New-AzResourceGroup -name 'demo-rg' -tag 'demo' -Location 'Central US'
+ # for looper 
 
-# do a for loop knucklebutt
 New-AzVM `
     -ResourceGroupName 'demo-rg' `
     -name 'demo-1' `
@@ -9,8 +10,7 @@ New-AzVM `
     -PublicIpAddressName 'myPubIP' `
     -Size 'Standard_B1S'  #Critical parameter. If not specified, will use default size $$
 
-```
-```powershell
+
 
 New-AzVM `
     -ResourceGroupName 'demo-rg' `
@@ -21,8 +21,7 @@ New-AzVM `
     -PublicIpAddressName 'myPubIP2' `
     -Size 'Standard_B1S'  #Critical parameter. If not specified, will use default size $$
 
-```
-New-AzResourceGroup -name 'demo-rg' -tag 'demo' -Location 'Central US'
+
 Get-AzResourceGroup -name 'mt-rg' | Remove-AzResourceGroup
 
 
